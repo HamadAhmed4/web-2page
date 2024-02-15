@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    position: fixed;
+    width: 100%;
+    background: #00adee;
+ 
+}
+.navbar:hover{
+    background-color: transparent;
+transition: 1s;
+}
+.nav-parent{
+    background-image: url("https://www.unrwa.org/sites/all/themes/unrwa/images/image-gallery-parallax.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+
+}
+.nav-img{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.paragaph{
+    padding: 10px;
+    border-left: 3px solid rgb(196, 196, 196);
+}
+.navimg{
+padding: 10px;
+
+}
+.donate-area{
+        padding: 10px;
+        background: brown;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+}
+.unbtn{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    padding: 10px;
+}
+.unrwa-btn{
+    text-decoration: none;
+    color: white;
+}
+.main-bar{
+    background-image: url("https://www.unrwa.org/sites/all/themes/unrwa/images/pane-bean-highlight-front-page.png?V=1");
+    border-bottom: 3px solid #00adee;
+    border-top: 3px solid #00adee;
+    color: black;
+    padding: 53px;
+    margin: 30px 0px;
+    height: 230px;
+    text-align: center;
+}
+span{
+    font-size: 35px;
+    font-weight: 900;
+}
+.mainheading{
+    font-size: 25px;
+}
+.paragraph-contant{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    }
+.paragraph-child{
+width: 30%;
+}
+.ancher{
+    color: black;
+    text-decoration: none;
+}
+.ancher:hover{
+    text-decoration: underline;
+
+}
+h4{
+    color: #ed9b51;
+    cursor: pointer;
+}
+h5{
+    color: #28c0f1;
+    cursor: pointer;
+}
+.color{
+    color: rgb(107, 107, 107);
+}
+.donate-contant{
+display: flex;
+
+align-items: baseline;
+justify-content: space-around;
+}
+.donate-child{
+    cursor: pointer;
+    width: 30%;
+    }
+    .box-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .box{
+        box-shadow: 1px 1px 2px black;
+        padding: 10px;
+        margin: 3px;
+    }
+    .img-paragraph{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .img-paragraph1{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .big-heading{
+        font-size: 35px;
+        border-left: 8px solid #00adee;
+    margin: 0px;
+    padding: 10px;
+    }
+    .paragraph-btn{
+        padding: 20px;
+        font-size: 20px;
+        line-height: 1.4;
+   
+    }
+    .ancher1{
+        font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: normal;
+    background: #00adee;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    width: fit-content;
+    width: -moz-fit-content;
+    border: 1px solid #00adee;
+    text-decoration: none;
+}
+
+    .unrwa-btn{
+color: #f6f6f6;
+padding: 5px;
+background-color: #c2203c;
+font-weight: bold;
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+display: inline-block;
+border-radius: 3px !important;
+margin: 20px;
+}
+input[type="text"],
+input[type="email"]{
+    padding: 10px;
+    margin: 5px;
+}
+#Statement{
+    padding: 10px;
+}
+.footer-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    margin: 30px 0px;
+    box-shadow: 0px 1px 1px #242424;
+}
+.payment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+a{
+    padding: 10px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom{
+    display: flex;
+    background: #00adee;
+    justify-content: center;
+    align-items: normal;
+margin: 40px 0px;
+}
+.footer-list{
+    display: flex;
+    border-bottom: 4px solid white;
+    margin: 10px 0px;
+}
+.footer-img{
+    border-bottom: 4px solid white;
+    padding: 10px;
+    margin: 10px 0px;
+}
+li{
+    list-style-type: none;
+}
+.ancher2{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 2;
+}
+.bold{
+    font-weight: 900;
+}

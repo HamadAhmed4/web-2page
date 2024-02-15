@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0px;
+}
+.container{
+    background-image: url("https://cdn.iraiser.eu/PYo+yXbrJtjg1PvDuefZRg==/default/origin/B3A59210088.jpg");
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.space{
+    margin: 5px;
+    color: rgb(41, 41, 41);
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.ancher{
+    color:rgb(30, 30, 30);
+text-decoration: none;
+}
+.nav-contant{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin: 130px 120px 0px 0px;
+}
+.main-child {
+    background: #d9d9d8;
+    color: #2ac2df;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+.main-child:hover{
+    cursor: pointer;
+    background: darkslategray;
+    transition: 1s;
+}
+.main-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+.item,.item1{
+    border: 2px solid #989898;
+    margin: 10px;
+    height: 450px;
+}
+.item1{
+    height: 400px;
+}
+h2{
+    background: cadetblue;
+    /* height: 53px; */
+    margin: 0px;
+    text-align: center;
+    padding: 24px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
